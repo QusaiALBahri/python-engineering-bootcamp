@@ -1,0 +1,53 @@
+# Core dependencies for Python Training Program
+# Pin versions for reproducibility
+
+# ============================================================================
+# Core Libraries
+# ============================================================================
+numpy==1.24.3
+pandas==2.0.3
+matplotlib==3.7.2
+duckdb==0.8.1
+
+# ============================================================================
+# Python 3.8+ Features (Web & GUI)
+# ============================================================================
+flask==2.3.2
+tkinter  # Included in standard Python, no pip needed
+
+# ============================================================================
+# Automation & Data
+# ============================================================================
+faker==19.2.0
+colorama==0.4.6
+playsound==1.2.3
+pyautogui==0.9.53
+
+# ============================================================================
+# AI & Machine Learning
+# ============================================================================
+scikit-learn==1.3.0
+openai==0.27.8  # For ChatGPT integration
+requests==2.31.0  # For API calls
+
+# ============================================================================
+# Development Tools (Optional)
+# ============================================================================
+pytest==7.4.0
+black==23.7.0
+flake8==6.0.0
+ipython==8.14.0  # Enhanced Python REPL
+jupyter==1.0.0  # Jupyter notebooks for Day 13
+
+# ============================================================================
+# Installation Instructions:
+# ============================================================================
+# 1. python -m venv .venv
+# 2. .venv\Scripts\activate  (Windows) or source .venv/bin/activate (Mac/Linux)
+# 3. pip install -r requirements.txt
+#
+# For specific installations:
+# - pip install numpy pandas matplotlib
+# - pip install flask
+# - pip install scikit-learn
+# - pip install jupyter

@@ -1,15 +1,8 @@
-# 🚀 Python Training Journey — From Zero to Shipping (14 Sessions)
+# � Python Training: A Complete 14-Day Curriculum
 
+Welcome to **Python Training** - A comprehensive, production-ready Python learning program designed to take you from absolute beginner to proficient developer.
 
-![albahri org Logo wide middle final (1128 x 191 بيكسل)](https://github.com/user-attachments/assets/8b258bab-087c-4c6b-9c6b-7f9bcc623814)
-
-# 🚀 رحلة تعلم بايثون — من الصفر إلى الاحتراف (١٤ جلسة)
-
-**Hands-on. Production-minded. Fun.**  
-**تدريب عملي، موجه للإنتاج، وممتع.**  
-
-This repository powers a complete Python training path: from **basics** and **logic** to **OOP**, **data analysis**, **GUI/web**, **automation**, and **AI** — with real deliverables, ticket-driven debugging, and a professional GitHub workflow.  
-هذا المستودع يقدم مسارًا تدريبيًا متكاملًا في بايثون: من **الأساسيات** و **المنطق** إلى **البرمجة الكائنية (OOP)**، **تحليل البيانات**، **التطبيقات الرسومية والويب**، **الأتمتة**، و **الذكاء الاصطناعي** — مع مخرجات حقيقية، وتصحيح أخطاء عبر تذاكر، وتدفق عمل احترافي على GitHub.
+**Status:** ✅ Complete - All 14 days created with lesson content, exercises, and professional documentation
 
 ---
 
