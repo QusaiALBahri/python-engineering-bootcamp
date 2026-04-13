@@ -9,10 +9,10 @@
 ![Last Updated](https://img.shields.io/badge/Last%20Updated-April%202026-blue?style=for-the-badge)
 ![Contributions](https://img.shields.io/badge/Contributions-Welcome-brightgreen?style=for-the-badge)
 
-[![GitHub Stars](https://img.shields.io/github/stars/QusaiALBahri/python_training?style=social)](https://github.com/QusaiALBahri/python_training)
+[![GitHub Stars](https://img.shields.io/github/stars/QusaiALBahri/python-engineering-bootcamp?style=social)](https://github.com/QusaiALBahri/python-engineering-bootcamp)
 [![GitHub Followers](https://img.shields.io/github/followers/QusaiALBahri?style=social)](https://github.com/QusaiALBahri)
 
-**🌍 Connect** | [LinkedIn](https://linkedin.com/in/qusai-albahri) • [Twitter](https://twitter.com/QusaiALBahri) • [Portfolio](https://albahri.org)
+**🌍 Connect** | [LinkedIn](https://www.linkedin.com/in/qusai-albahri/) • [Facebook](https://facebook.com/qusai.albahri) • [Portfolio](https://albahri.org)
 
 ---
 
@@ -38,28 +38,28 @@
 
 ## ✨ What You'll Master
 
-### **Core Python**
+### 🐍 **Core Python**
 - ✅ Fundamentals: variables, types, operators, control flow
-- ✅ Functions, modules, error handling
+- ✅ Functions, modules, error handling  
 - ✅ Object-Oriented Programming (classes, inheritance, polymorphism)
 - ✅ Functional programming & design patterns
 
-### **Data Science & Analysis**
+### 📊 **Data Science & Analysis**
 - ✅ [NumPy](https://numpy.org/) — Matrix operations, linear algebra
 - ✅ [Pandas](https://pandas.pydata.org/) — Data cleaning, aggregation, pivot tables
 - ✅ [Matplotlib](https://matplotlib.org/) — Visualization (charts, plots, dashboards)
 
-### **Web & Desktop Development**
+### 🌐 **Web & Desktop Development**
 - ✅ [Flask](https://flask.palletsprojects.com/) — REST APIs, web applications
 - ✅ [Tkinter](https://docs.python.org/3/library/tkinter.html) — Desktop GUI applications
-- ✅ HTML/CSS integration for web apps
+- ✅ HTML/CSS integration for interactive web apps
 
-### **AI & Automation**
+### 🤖 **AI & Automation**
 - ✅ [Groq](https://groq.com/) & [OpenAI](https://openai.com/) API Integration
-- ✅ Machine Learning — Logistic Regression with [scikit-learn](https://scikit-learn.org/)
+- ✅ Machine Learning — Classification & Logistic Regression with [scikit-learn](https://scikit-learn.org/)
 - ✅ Automation scripts with [PyAutoGUI](https://pyautogui.readthedocs.io/)
 
-### **Professional Skills**
+### ⚙️ **Professional Skills**
 - ✅ Git & GitHub workflow (branches, PRs, commits)
 - ✅ Clean code: PEP 8, naming conventions, docstrings
 - ✅ Logging, testing, debugging strategies
@@ -68,16 +68,18 @@
 
 ---
 
-## 🎓 Course Philosophy
+## 🎓 Our Teaching Philosophy  
 
-**Create → Break → Fix → Harden**
+### **Create → Break → Fix → Harden** 🔄
 
-We teach Python the way professional engineers build systems:
+We teach Python the way **professional engineers** actually build systems:
 
-1. **Create** working code to understand concepts
-2. **Break** it intentionally to learn from failures
-3. **Fix** bugs using systematic debugging
-4. **Harden** with best practices, tests, and documentation
+1. 🏗️ **Create** — Build working code to understand concepts
+2. 💥 **Break** — Intentionally introduce bugs to learn from failures
+3. 🔧 **Fix** — Debug systematically using professional techniques
+4. 💪 **Harden** — Add tests, docs, and best practices
+
+**Why?** Because breaking things (safely) is how you truly learn to build them right.
 
 ---
 
@@ -113,8 +115,8 @@ We teach Python the way professional engineers build systems:
 
 ```bash
 # Clone the repository
-git clone https://github.com/QusaiALBahri/python_training.git
-cd python_training
+git clone https://github.com/QusaiALBahri/python-engineering-bootcamp.git
+cd python-engineering-bootcamp
 
 # Create virtual environment
 python -m venv .venv
@@ -126,7 +128,7 @@ source .venv/bin/activate
 
 # Install dependencies
 pip install -U pip
-pip install numpy pandas matplotlib flask scikit-learn pyautogui faker duckdb colorama groq python-dotenv
+pip install -r requirements.txt
 
 # Run a sample
 python samples/hello.py
@@ -168,18 +170,20 @@ python_training/
 
 ---
 
-## 💡 Sample Code
+## 💡 Code Snippets From the Course
 
-### Day 1: Hello World with Type Checking
+### 📍 Day 1: Hello World with Type Checking
 ```python
+# Learn: input, f-strings, type checking
 name = input("What's your name? ")
 age = int(input("Your age: "))
 print(f"Hello, {name}! Next year you'll be {age + 1}.")
 print(f"Type check - name is {type(name).__name__}, age is {type(age).__name__}")
 ```
 
-### Day 9: Data Visualization
+### 📍 Day 9: Data Visualization
 ```python
+# Learn: Pandas, Matplotlib, creating charts
 import pandas as pd
 import matplotlib.pyplot as plt
 
@@ -193,8 +197,9 @@ plt.savefig("revenue_chart.png")
 plt.show()
 ```
 
-### Day 11: Flask API
+### 📍 Day 11: Building a REST API
 ```python
+# Learn: Flask, JSON APIs, HTTP methods
 from flask import Flask, jsonify, request
 
 app = Flask(__name__)
@@ -204,18 +209,21 @@ def greet():
     name = request.json.get('name')
     return jsonify({"message": f"Hello, {name}!"})
 
-app.run(debug=True)
+if __name__ == '__main__':
+    app.run(debug=True)
 ```
 
-### Day 14: Machine Learning
+### 📍 Day 14: Machine Learning Classification
 ```python
+# Learn: scikit-learn, model training, evaluation
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score
 
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
 model = LogisticRegression().fit(X_train, y_train)
-accuracy = model.score(X_test, y_test)
-print(f"Model Accuracy: {accuracy:.2%}")
+accuracy = accuracy_score(y_test, model.predict(X_test))
+print(f"✅ Model Accuracy: {accuracy:.2%}")
 ```
 
 ---
@@ -274,15 +282,70 @@ print(f"Model Accuracy: {accuracy:.2%}")
 
 ---
 
-## 🏆 Features
+## 🏆 Key Features
 
-✨ **Production-Ready** — Not just tutorials, real professional practices  
-🎯 **Hands-On** — 14 complete mini-projects included  
-🧠 **Comprehensive** — From basics to AI in 42 hours  
-🌍 **Bilingual** — English & عربي (Arabic) content  
-📊 **Modern** — Latest libraries and best practices  
-🔗 **Linked** — Every concept connects to real-world application  
-🛠️ **Practical** — Bug fixing, debugging, testing from day 1  
+<table>
+<tr>
+<td>
+
+✨ **Production-Ready**  
+Real professional practices
+
+</td>
+<td>
+
+🎯 **Hands-On**  
+14 complete mini-projects
+
+</td>
+<td>
+
+🧠 **Comprehensive**  
+Basics to AI in 42 hours
+
+</td>
+</tr>
+<tr>
+<td>
+
+🌍 **Bilingual**  
+English & عربي (Arabic)
+
+</td>
+<td>
+
+📊 **Modern Stack**  
+Latest tools & practices
+
+</td>
+<td>
+
+🔗 **Real-World**  
+Every concept applied
+
+</td>
+</tr>
+<tr>
+<td>
+
+🛠️ **Learn by Fixing**  
+Debugging from day 1
+
+</td>
+<td>
+
+✅ **100% Complete**  
+All 14 days ready
+
+</td>
+<td>
+
+💰 **Forever Free**  
+No cost, no catches
+
+</td>
+</tr>
+</table>  
 
 ---
 
@@ -346,9 +409,22 @@ All contributions welcome! ❤️
 
 ## 📧 Support
 
+<<<<<<< HEAD
 - **Questions?** Open an [Issue](https://github.com/QusaiALBahri/python_training/issues)
 - **Suggestions?** Start a [Discussion](https://github.com/QusaiALBahri/python_training/discussions)
 - **Email** — qusai@albahri.org
+=======
+## 📧 Support & Questions
+
+Need help or have feedback? Multiple ways to reach out:
+
+📧 **Email:** [qusai@albahri.org](mailto:qusai@albahri.org)  
+💼 **LinkedIn:** [linkedin.com/in/qusai-albahri](https://www.linkedin.com/in/qusai-albahri/)  
+📘 **Facebook:** [facebook.com/qusai.albahri](https://facebook.com/qusai.albahri)  
+🌐 **Portfolio:** [albahri.org](https://albahri.org)  
+🐙 **GitHub Issues:** [Open an issue](https://github.com/QusaiALBahri/python-engineering-bootcamp/issues)  
+💬 **Discussions:** [Start a discussion](https://github.com/QusaiALBahri/python-engineering-bootcamp/discussions)  
+>>>>>>> eaa5039 (Complete: Add 6 missing lesson files + beautify README)
 
 ---
 
@@ -371,23 +447,37 @@ If this bootcamp helped you learn Python, please:
 
 <div align="center">
 
-**Made with ❤️ by [Qusai ALBahri](https://github.com/QusaiALBahri)**
+### ✨ You Made It to the End!
 
+<<<<<<< HEAD
 Follow for more Python content:  
 [GitHub](https://github.com/QusaiALBahri) • [LinkedIn](https://linkedin.com/in/qusai-albahri) • [Twitter](https://twitter.com/QusaiALBahri)
+=======
+**Thanks for choosing this bootcamp** 🙏
+
+Whether you're just starting or already learning, we're here to support your journey.
+>>>>>>> eaa5039 (Complete: Add 6 missing lesson files + beautify README)
 
 ---
 
-### **Ready to start your Python journey?** 🚀
+**Made with ❤️ by [Qusai ALBahri](https://albahri.org)**
 
-Clone the repo and begin with [Day 1](./day01_basics/README.md) today!
+[⭐ Star us on GitHub](https://github.com/QusaiALBahri/python-engineering-bootcamp) | [👥 Follow on LinkedIn](https://www.linkedin.com/in/qusai-albahri/) | [📧 Get in touch](mailto:qusai@albahri.org)
+
+---
+
+### 🚀 Ready to Start?
+
+**[Begin Day 1: Python Basics →](./day01_basics/README.md)**
 
 ```bash
-git clone https://github.com/QusaiALBahri/python_training.git
-cd python_training
+git clone https://github.com/QusaiALBahri/python-engineering-bootcamp.git
+cd python-engineering-bootcamp
 python samples/hello.py
 ```
 
-Happy learning! 🎓
+---
+
+*Version 2.0 | 14 Days Complete ✅ | April 2026*
 
 </div>

@@ -45,7 +45,7 @@ A complete, professional Python training curriculum with **14 days of content**.
 
 ```bash
 # 1. Navigate to where you cloned
-cd python_training
+cd python-engineering-bootcamp
 
 # 2. Create virtual environment  
 python -m venv venv
