@@ -1,4 +1,4 @@
-# � Python Training: A Complete 14-Day Curriculum
+# 🏆 Python Training: A Complete 14-Day Curriculum ⭐
 
 Welcome to **Python Training** - A comprehensive, production-ready Python learning program designed to take you from absolute beginner to proficient developer.
 
