@@ -12,7 +12,7 @@
 [![GitHub Stars](https://img.shields.io/github/stars/QusaiALBahri/python_training?style=social)](https://github.com/QusaiALBahri/python_training)
 [![GitHub Followers](https://img.shields.io/github/followers/QusaiALBahri?style=social)](https://github.com/QusaiALBahri)
 
-**🌍 Connect** | [LinkedIn](https://linkedin.com/in/qusaialbahri) • [Twitter](https://twitter.com/QusaiALBahri) • [Portfolio](https://albahriorg.com)
+**🌍 Connect** | [LinkedIn](https://linkedin.com/in/qusai-albahri) • [Twitter](https://twitter.com/QusaiALBahri) • [Portfolio](https://albahri.org)
 
 ---
 
@@ -348,7 +348,7 @@ All contributions welcome! ❤️
 
 - **Questions?** Open an [Issue](https://github.com/QusaiALBahri/python_training/issues)
 - **Suggestions?** Start a [Discussion](https://github.com/QusaiALBahri/python_training/discussions)
-- **Email** — qusai@albahriorg.com
+- **Email** — qusai@albahri.org
 
 ---
 
@@ -374,7 +374,7 @@ If this bootcamp helped you learn Python, please:
 **Made with ❤️ by [Qusai ALBahri](https://github.com/QusaiALBahri)**
 
 Follow for more Python content:  
-[GitHub](https://github.com/QusaiALBahri) • [LinkedIn](https://linkedin.com/in/qusaialbahri) • [Twitter](https://twitter.com/QusaiALBahri)
+[GitHub](https://github.com/QusaiALBahri) • [LinkedIn](https://linkedin.com/in/qusai-albahri) • [Twitter](https://twitter.com/QusaiALBahri)
 
 ---
 
